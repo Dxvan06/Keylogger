@@ -16,7 +16,7 @@ Keylogger Script This repository contains a simple keylogger script written in P
 
 ## 1.Clone the repository:
 
-     https://github.com/Dxvan06/Keylogger.git 
+     git clone https://github.com/Dxvan06/Keylogger.git 
 
      cd Keylogger 
 
