@@ -32,13 +32,13 @@ Keylogger Script This repository contains a simple keylogger script written in P
 
 # 🏃‍♂️ Usage
 
-1.Run the server script on the attacker machine:
+## 1.Run the server script on the attacker machine:
 
 ``` ./attacker.py ```
 
 This will start the server that receives the logs.
 
-2.Run the keylogger script on the victim machine:
+## 2.Run the keylogger script on the victim machine:
 
 ``` ./victime.py ```
 
