@@ -5,7 +5,7 @@ import time
 import platform
 
 log = ""
-server_ip = '192.168.1.16'
+server_ip = 'YOUR IP ADDR'
 server_port = 8080
 log_interval = 10  # Interval to send logs in seconds
 
