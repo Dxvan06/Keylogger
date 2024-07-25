@@ -62,6 +62,8 @@ To create Windows executables for both scripts, use pyinstaller:
 # ⚠️ Disclaimer
 This script is intended for educational purposes only. Unauthorized use of this script is prohibited and may be illegal. The author is not responsible for any misuse or damage caused by this script.
 
+# Licenses
 
+[MIT](https://choosealicense.com/licenses/mit/)
 
 
