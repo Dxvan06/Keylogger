@@ -16,31 +16,31 @@ Keylogger Script This repository contains a simple keylogger script written in P
 
 ## 1.Clone the repository:
 
-``` https://github.com/Dxvan06/Keylogger.git ```
+     https://github.com/Dxvan06/Keylogger.git 
 
-``` cd Keylogger ```
+     cd Keylogger 
 
 ## 2.Install the required library:
 
-``` pip install pynput ```
+     pip install pynput 
 
 ## 3.Make the script executable (if on Linux/macOS):
+     
+     chmod +x attacker.py
 
-``` chmod +x attacker.py ```
-
-``` chmod +x victime.py ```
+     chmod +x victime.py 
 
 # 🏃‍♂️ Usage
 
 ## 1.Run the server script on the attacker machine:
-
-``` ./attacker.py ```
+    
+     ./attacker.py 
 
 This will start the server that receives the logs.
 
 ## 2.Run the keylogger script on the victim machine:
-
-``` ./victime.py ```
+    
+     ./victime.py 
 
 **Note: Enter the attacker machine IP and PORT number in the ``` victime.py ``` script.**
 
@@ -49,14 +49,15 @@ This will start the server that receives the logs.
 To create Windows executables for both scripts, use pyinstaller:
 
 ## 1.Install PyInstaller:
-
-``` pip install pyinstaller  ```
+    
+    pip install pyinstaller  
 
 ## 2.Create executables:
 
-``` pyinstaller --onefile victime.py ```
+     
+     pyinstaller --onefile victime.py
 
- *The executables will be created in the ``dist`` folder.* 
+ *The executables will be created in the  ``dist`` folder.* 
 
 # ⚠️ Disclaimer
 This script is intended for educational purposes only. Unauthorized use of this script is prohibited and may be illegal. The author is not responsible for any misuse or damage caused by this script.
